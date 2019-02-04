@@ -6,7 +6,7 @@ function getFooter(){
     <footer class="container my-4">
 		<div class="row">
 			<div class="col-sm-6" id="copyright-footer">
-                <span>&copy; 2019 Gamers Party - Todos los derechos reservados</span><br>
+                <span title="Salvo los de la plantilla">&copy; 2019 GamersParty - Todos los derechos reservados</span><br>
                 <span id="enlace-cookies"><a href="/cookies" target="_blank" rel="noopener noreferrer">Política de Privacidad y Cookies</a></span>
             </div>
 			<div class="col-sm-6" id="rrss-footer">

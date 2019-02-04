@@ -14,16 +14,22 @@
     <div id="main-container" class="container">
       <?php getHeader(); ?>
 
-      <div class="info-evento container">
-        <p>La GamersParty es un evento benéfico organizado por estudiantes y profesores.</p>
-        <p>El evento nació en 2017 en la que recaudamos casi 1000€ en dinero y juguetes para Juegaterapia.</p>
-        <p>En el 2018 se recaudaron más de 600kg de comida que fueron donados al Banco de Alimentos de Madrid.</p>
-        <p>Durante una semana, alumnos y profesores voluntarios tratarán de completar juegos en tiempo record.</p>
-        <p>El evento entero será retransmitido a través de las plataformas de YouTube y Twitch.</p>
-        <p>La GamersParty 2019 se celebra desde el 25 de febrero al 1 de marzo desde las 9 hasta las 20 en la Sala de Grados de la Facultad de Informática de la Universidad Complutense de Madrid.</p>
-        <p>Se sortearán premios entre todos los asistentes y los que nos veáis desde casa.</p>
-        <p>¡Os esperamos!</p>
+      <h1 class="mb-3 text-center">El evento</h1>
+      <div class="row">
+        <div class="col-md-6 text-justify">
+          <p>La GamersParty es un evento benéfico organizado por estudiantes y profesores de la Facultad de Informática de la Universidad Complutense de Madrid.</p>
+          <p>Nació en 2017 en la que recaudamos casi 1000€ en dinero y juguetes para Juegaterapia y, en 2018, se recaudaron más de 600kg de comida que fueron donados al Banco de Alimentos de Madrid.</p>
+          <p>La GamersParty 2019 se celebra desde el 25 de febrero al 1 de marzo desde las 9 hasta las 20 en la Sala de Grados de la Facultad de Informática de la Universidad Complutense de Madrid. Durante esa semana, los voluntarios retransmitirán por Youtube y Twitch cómo tratan de completar videojuegos en tiempo récord.</p>        
+          <p>Se sortearán premios entre todos los asistentes y los que nos veáis desde casa.</p>
+          <p class="d-none">También hay premios para los más curiosos. Puede que haya cosas escondidas, como esta.</p>
+          <p>¡Os esperamos!</p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="images/clausura.jpg" alt="Foto. Clausura del evento" title="Clausura del evento">
+        </div>
       </div>
+
+      
 
       <?php  ?>
 

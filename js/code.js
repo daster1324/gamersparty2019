@@ -1,1 +1,27 @@
-!function(){"use strict";var e,n,t,v=[38,38,40,40,37,39,37,39,66,65],c=[];function l(e){var n,t,o,d=e||window.event,i=d.keyCode?d.keyCode:d.which,r=!0;if(c.push(i),c.length<v.length){for(var h=0,a=c.length;h<a;h++)c[h]!==v[h]&&(r=!1);r||(c=[]).push(i)}else if(c.length===v.length){var s=0;for(a=c.length;s<a;s++)c[s]!==v[s]&&(r=!1);c=[],r&&(n=document,t="keydown",o=l,n.removeEventListener?n.removeEventListener(t,o,!1):n.detachEvent("on"+t,o),konamiIsDetected())}else c=[]}e=document,n="keydown",t=l,e.addEventListener?e.addEventListener(n,t,!1):e.attachEvent("on"+n,t)}();function konamiIsDetected(){alert("EL PSY CONGROO")}
+var countDownDate = new Date("Feb 25, 2019 09:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "¡Comenzamos!";
+  }
+}, 1000);

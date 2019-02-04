@@ -29,12 +29,12 @@ function getHeader(){
                 echo '<a class="nav-item nav-link boton rojo" href="/speedruns">Speedruns</a>';
             }
 
-//            if($cur == "/evento"){
-//                echo '<a class="nav-item nav-link boton blanco active" href="/evento">El evento <span class="sr-only">(actual)</span></a>';
-//            }
-//            else{
-//                echo '<a class="nav-item nav-link boton blanco" href="/evento">El evento</a>';
-//            }
+            if($cur == "/evento"){
+                echo '<a class="nav-item nav-link boton blanco active" href="/evento">El evento <span class="sr-only">(actual)</span></a>';
+            }
+            else{
+                echo '<a class="nav-item nav-link boton blanco" href="/evento">El evento</a>';
+            }
 
             if($cur == "/visita-inta"){
                 echo '<a class="nav-item nav-link boton verde active" href="/visita-inta">Visita el INTA <span class="sr-only">(actual)</span></a>';

@@ -11,13 +11,13 @@
 
   </head>
   <body>
-    <div class="bg-warning text-center pt-4 pb-2 text-dark font-weight-bold ">
+    <div class="d-none bg-warning text-center pt-4 pb-2 text-dark font-weight-bold ">
       <p>El sitio web sigue en construcción. Estáte pendiente a las RRSS para enterarte de las actualizaciones.</p>
     </div>
     <div id="main-container" class="container">
       <?php getHeader(); ?>
 
-      <h1>Speedruns</h1>
+      <h1 class="text-center mb-3">Speedruns</h1>
 
       <h4 class="text-center mb-4">¡Ayúdanos a llenar la parrilla!</h4>
       <p>Estamos buscando gente que quiera demostrar lo buena que es en un juego.</p>
