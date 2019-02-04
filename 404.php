@@ -17,7 +17,6 @@
 
       <div class="container">
       <h2>Parece que lo que buscas no está por aquí</h2>
-
       <p>Puede que haya dejado de existir o que nunca lo haya llegado a hacer.</p>
       <p>Pulsa cualquier botón del menú de arriba para salir de aquí.</p>
 
