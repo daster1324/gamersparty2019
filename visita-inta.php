@@ -23,7 +23,7 @@
         <p>Sólo tienes que donar alimentos durante la retransmisión de las siguientes actividades:</p>
 
         <h4 class="text-center mt-5">Viaje con nosotros… por el Sistema Solar</h4>
-        <h6>[viernes, 28 de febrero - 14:00-16:00]</h6>
+        <h6>[jueves, 28 de febrero - 14:00-16:00]</h6>
         <p class="mt-4">Embárcate en este vuelo operado por GamersParty por las maravillas del Sistema Solar, en el que visitaremos Marte y Venus usando el simulador "Elite: Dangerous" mientras transportamos un cargamento para el Banco de Alimentos. El comandante, el profesor José Luis Vázquez-Poletti, aprovechará para explicar el trabajo realizado en dichos destinos por las misiones espaciales en las que él participa.</p>
 
         <h4 class="text-center mt-4 mb-5">Puerta de embarque: Sala de Grados (1ª planta)</h4>
