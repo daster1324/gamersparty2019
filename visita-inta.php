@@ -20,7 +20,8 @@
 
         <p>Gracias a la <a href="https://psicologia.ucm.es/catedra_ajb" target="_blank" rel="noopener noreferrer">Cátedra Almirante Don Juan de Borbón</a>, resultado del convenio marco entre el Ministerio de Defensa a través del Centro Superior de Estudios de la Defensa Nacional y la Universidad Complutense de Madrid, te ofrecemos la posibilidad de visitar el INTA el viernes 5 de abril.</p>
 
-        <p>Sólo tienes que donar alimentos durante la retransmisión de las siguientes actividades:</p>
+        <h4 class="text-center my-4 text-warning">Sólo tienes que donar alimentos durante la retransmisión de las siguientes actividades:</h4>
+        <h5 class="text-center my-4 text-warning">(Plazas limitadas)</h5>
 
         <h4 class="text-center mt-5">Viaje con nosotros… por el Sistema Solar</h4>
         <h6>[jueves, 28 de febrero - 14:00-16:00]</h6>
