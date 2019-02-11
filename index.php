@@ -26,11 +26,11 @@
         
         <p>¿Contamos con tu aportación este año?</p>
 
-        <p class="mt-5">Y, ahora, sin más dilación, el Teaser Trailer.</p>
+        <p class="mt-5">Y, ahora, sin más dilación, el vídeo promocional.</p>
       </div>
 
       <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WQDSY5eQnQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rdEmI77q7eI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 <?php
 //     <div class="container">
