@@ -34,7 +34,7 @@
         </div>
 
         <h4 class="text-center mt-5">Equipo de Titanfall 2 FDI-UCM</h4>
-        <h6>[Pendiente de confirmación]</h6>
+        <h6>[viernes, 1 de marzo - 10:00-13:00]</h6>
         <p class="mt-4 mb-5">Cuando “las ferritas (símbolo de Ingeniería en Informática) caen en el campo de batalla”, el enemigo sabe que sólo tiene una salida: por tierra, mar o aire. Los titanes de la FDI-UCM lucharán para asegurar hasta el último cargamento destinado al Banco de Alimentos desde la Frontera.</p>
 
         <div class="embed-responsive embed-responsive-16by9">
