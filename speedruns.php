@@ -1,5 +1,6 @@
 <?php
   include('t_header.php');
+  include('t_speed.php');
   include('meta-creator.php');
   include('t_footer.php');
 ?>
@@ -19,17 +20,76 @@
 
       <h1 class="text-center mb-3">Speedruns</h1>
 
-      <h4 class="text-center mb-4">¡Ayúdanos a llenar la parrilla!</h4>
-      <p>Estamos buscando gente que quiera demostrar lo buena que es en un juego.</p>
-      <p>No hace falta que te marques el speedrun del año. También buscamos gente que dé espectáculo</p>
-      <p>¿Se te da de miedo algún juego en concreto? No lo dudes y apúntate. ¡Tenemos galletas!</p>
+      <div class="container-fluid">
+        <div id="game-info">
 
-      <p class="mt-5 mb-3">Te dejamos por aquí el formulario de inscripción</p>
-      <div class="embed-responsive  embed-responsive-16by9 mt-4 d-none d-md-block">
-        <iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSfrEKDt83UxEm84neYx-gCmW-ikCIsGK1ae2PmiQalmCwRLJw/viewform" frameborder="0"></iframe>
-      </div>
-      <div class="embed-responsive embed-responsive-1by1 mt-4 d-block d-md-none">
-        <iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSfrEKDt83UxEm84neYx-gCmW-ikCIsGK1ae2PmiQalmCwRLJw/viewform" frameborder="0"></iframe>
+        </div>
+        <div id="game-horario" class="row justify-content-between">
+          <?php
+            $h = new Horario();
+
+            //LUNES
+            $h->addDescanso(Horario::lunes, "9:00", "15:00");
+
+            $h->addRun(Horario::lunes, "15:00", "16:00", "Staff", "Preparación", "Preparación del escenario del evento y de todo el material de retransmisión");
+
+            $h->addRun(Horario::lunes, "16:00", "17:00", "Staff", "Inauguración", "Pistoletazo de salida de la GamersParty 2019");
+
+            $h->addRun(Horario::lunes, "17:00", "18:00", "Fer", "Super Hexagon", "Juego musical que pone a prueba la destreza y los reflejos de quien lo juega");
+
+            $h->addRun(Horario::lunes, "18:00", "19:00", "Aitor", "12 is better than 6", "Juego de acción y disparos de perspectiva cenital, con elementos de sigilo, al más puro estilo del Salvaje Oeste.");
+
+            $h->addRun(Horario::lunes, "19:00", "21:00", "Daster", "A Hat in Time", "Juego plataformas 3D que te recordará mucho al Super Mario Sunshine o el Banjo-Kazooie.");
+            
+
+            //MARTES
+            $h->addRun(Horario::martes, "9:00", "13:00", "Ignacio Ory", "Bioshock 2", "Situado unos 10 años después de los eventos del Bioshock original, los ecos de los pecados pasados vuelven a resonar por las salas de Rapture");
+
+            $h->addRun(Horario::martes, "13:00", "14:00", "Hollywood", "Titan Souls", "Entre nuestro mundo y el mundo más allá se encuentran las Titan Souls, la fuente espiritual y la suma de todos los seres vivos");
+
+            $h->addRun(Horario::martes, "14:00", "15:00", "Godoy", "Out There Somewhere", "Inspirado por Cave Story, Super Metroid y Portal, un explorador se encuentra varado en un peligroso planeta alienígena");
+
+            $h->addRun(Horario::martes, "15:00", "18:00", "Pino", "Dark Souls 2", "Únete al oscuro viaje y experimenta los sobrecogedores encuentros con enemigos, los peligros diabólicos y los desafíos implacables");
+
+            $h->addRun(Horario::martes, "18:00", "19:00", "J. Pablo, Null, Pino", " ", " ");
+
+            $h->addRun(Horario::martes, "19:00", "20:00", "Diego", "Portal", "Un juego de puzles en 3D donde la física y pensar en portales es lo más importante. Al final habrá tarta (o no)");
+
+
+            //MIERCOLES
+            $h->addRun(Horario::miercoles, "9:00", "11:00", "Pascal", "Crash Bandicoot 3", "Esta vez, Crash cuenta con la ayuda de su hermana Coco para vencer (una vez más) al profesor Neo Cortex.");
+
+            $h->addRun(Horario::miercoles, "11:00", "13:00", "Tú. Sí, tú.", "Torneo Smash Bros", "¡Apúntate y demuestra que no hay quien te eche del escenario!");
+
+            $h->addRun(Horario::miercoles, "13:00", "15:00", "Leila", "LIMBO", "Un niño va en busca de su hermana afrontando los peligros que acechan.");
+
+            $h->addRun(Horario::miercoles, "15:00", "18:00", "Tú. Sí, otra vez.", "Torneo Just Dance", "O 'Justo Danza' como lo llaman nuestros bailarines. ¿Sabes bailar? ¿No? No te preocupes. La cosa es pasárselo bien y, de paso, ganar.");
+
+            $h->addRun(Horario::miercoles, "18:00", "20:00", "Tú. ¿Cómo no?", "Torneo Mario Kart", "200cc. No te digo más.");
+
+            //JUEVES
+            $h->addDescanso(Horario::jueves, "9:00", "14:00");
+
+            $h->addRun(Horario::jueves, "14:00", "16:00", "JL Vázquez-Poletti", "Viaje con nosotros… por el Sistema Solar", "Embárcate en este vuelo operado por GamersParty por las maravillas del Sistema Solar, en el que visitaremos Marte y Venus");
+
+            $h->addRun(Horario::jueves, "16:00", "18:00", "¿?", "Carreras", "¿Qué será? ¡Iremos informando!");
+
+            $h->addRun(Horario::jueves, "18:00", "21:00", "Daster", "Metroid Fusion", "Un clásico de GameBoy Advance.<br>Samus continúa sus viajes con una nueva nave y es informada de que una estación en el planeta SR-388 ha sido atacada y no hay transmisiones.");
+
+            //VIERNES
+            $h->addDescanso(Horario::viernes, "9:00", "10:00");
+
+            $h->addRun(Horario::viernes, "10:00", "13:00", "TitanfallFDI", "Titanfall 2", "Los titanes de la FDI-UCM lucharán para asegurar hasta el último cargamento destinado al Banco de Alimentos desde la Frontera.");
+
+            $h->addRun(Horario::viernes, "13:00", "15:00", "Viktor", "¿?", "Mmmm ¿qué juego nos traerá esta vez?");
+
+            $h->addRun(Horario::viernes, "15:00", "19:00", "Zero", "Metal Gear Solid", "FOXHOUND, una unidad genéticamente mejorada de fuerzas especiales,​ armó un levantamiento armado en una isla remota ubicada en el archipiélago Fox de Alaska. Esta isla, con nombre en código Shadow Moses, es el sitio de una instalación de almacenamiento de armas nucleares.");
+
+            $h->addRun(Horario::viernes, "19:00", "20:00", "Staff", "Clausura", "Terminan los speedrun, pero no la GamersParty. ¡Aun nos queda la GameJam durante el fin de semana!");
+
+            $h->print();
+          ?>
+        </div>
       </div>
       
 
