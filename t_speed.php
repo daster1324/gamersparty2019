@@ -72,8 +72,8 @@ class Horario{
         echo '<div class="mt-5 mb-3">';
         switch ($dia) {
             case 0: echo "Lunes 25"; break;
-            case 1: echo "Martes 25"; break;
-            case 2: echo "Miér. 25"; break;
+            case 1: echo "Martes 26"; break;
+            case 2: echo "Miér. 27"; break;
             case 3: echo "Jueves 28"; break;
             case 4: echo "Viernes 1"; break;
             
