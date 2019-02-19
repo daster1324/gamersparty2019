@@ -28,7 +28,7 @@
             <p>¡Vuelve... la Game Jam de la Gamersparty!</p>
 
             <h4 class="mt-4">Fechas y lugar</h4>
-            <p>La Game Jam tendrá lugar en <a href="http://voxelschool.com/" target="_blank" rel="noopener noreferrer">Voxel School</a>.</p>
+            <p>La Game Jam tendrá lugar en <a href="http://voxelschool.com/" target="_blank" rel="noopener noreferrer">Voxel School</a> durante los días 1, 2 y 3 de marzo.</p>
 
             <h4 class="mt-4">Horarios</h4>
             <p>El evento tendrá lugar desde las 17:00 del viernes 1 de marzo hasta las 14:00 del domingo 3. Desde las 0:00 hasta las 7:00 las puertas permanecerán cerradas.</p>
