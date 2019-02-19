@@ -28,10 +28,13 @@
             <p>¡Vuelve... la Game Jam de la Gamersparty!</p>
 
             <h4 class="mt-4">Fechas y lugar</h4>
-            <p>La Game Jam tendrá lugar en <a href="http://voxelschool.com/" target="_blank" rel="noopener noreferrer">Voxel School</a>, desde las 17:00 del viernes 1 de marzo hasta las 14:00 del domingo 3.</p>
+            <p>La Game Jam tendrá lugar en <a href="http://voxelschool.com/" target="_blank" rel="noopener noreferrer">Voxel School</a>.</p>
+
+            <h4 class="mt-4">Horarios</h4>
+            <p>El evento tendrá lugar desde las 17:00 del viernes 1 de marzo hasta las 14:00 del domingo 3. Desde las 0:00 hasta las 7:00 las puertas permanecerán cerradas.</p>
 
             <h4 class="mt-4">Premios</h4>
-            <p>A los mejores se les hará entrega de libros y videojuegos.</p>
+            <p>¡Si estás entre los mejores te llevarás uno de los lotes de libros y videojuegos!</p>
           </div>
           <div class="col-md-6">
           <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.942789531659!2d-3.7133645000000004!3d40.432265699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7abdbc285fe3580a!2sVOXEL+SCHOOL!5e0!3m2!1ses!2ses!4v1524081274417" style="border:0" allowfullscreen=""></iframe>
@@ -39,6 +42,10 @@
         </div>
 
         <h3 class="text-center mt-5">Participa</h3>
+        <p>Las inscripciones se realizan de forma individual y los grupos (a formarse el día de la competición o formados de antes) serán de un máximo de 5 personas.</p>
+        <h5 class="text-center mt-5">Costes de inscripción</h5>
+        <p>Se deberán abonar como cuota de inscripción 2kg en alimentos no perecederos por participante. Recordamos que la Gamersparty es un evento benéfico en colaboración con el Banco de alimentos de Madrid</p>
+
         <div class="row text-center">
             <div class="embed-responsive  embed-responsive-16by9 mt-4 d-none d-md-block">
               <iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSdaqvlvF1nzmhFyiVYK0-IX3EF0iuAXlm1ErdayGCOYJCQRgw/viewform" frameborder="0"></iframe>
@@ -46,6 +53,13 @@
             <div class="embed-responsive embed-responsive-1by1 mt-4 d-block d-md-none">
               <iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSdaqvlvF1nzmhFyiVYK0-IX3EF0iuAXlm1ErdayGCOYJCQRgw/viewform" frameborder="0"></iframe>
             </div>
+        </div>
+
+        <div id="sponsor-container" class="text-center">
+          <p class="mt-5 mb-3">Todo este evento no sería posible sin la generosa colaboración de nuestros patrocinadores</p>
+          <img class="mx-3" src="images/ea-logo-normalized.png" alt="Electronic Arts" title="Electronic Arts">
+          <img class="mx-3" src="images/voxel-logo-normalized.png" alt="Voxel School" title="Voxel School">
+          <img class="mx-3" src="images/ucm-logo-normalized.png" alt="Universidad Complutense de Madrid" title="Universidad Complutense de Madrid">
         </div>
 
       </div>

@@ -232,3 +232,8 @@ div#div-cookies {
     height: 350px;
     width: 100%;   
 }
+
+#sponsor-container img {
+  max-height: 70px;
+}
+

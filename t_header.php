@@ -42,6 +42,13 @@ function getHeader(){
             else{
                 echo '<a class="nav-item nav-link boton verde" href="/visita-inta">Visita el INTA</a>';
             }
+
+            if($cur == "/gamejam"){
+                echo '<a class="nav-item nav-link boton amarillo active" href="/gamejam">Game Jam <span class="sr-only">(actual)</span></a>';
+            }
+            else{
+                echo '<a class="nav-item nav-link boton amarillo" href="/gamejam">Game Jam</a>';
+            }
         ?>
 
     </div>
