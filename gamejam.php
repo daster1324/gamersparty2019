@@ -55,6 +55,11 @@
             </div>
         </div>
 
+        <div class="my-5 text-center">
+            <h3>¿Sigues con dudas?</h3>
+            <p>Aclara tus dudas. <a href="mailto:lagasociacion@gmail.com">Envíanos un correo</a></p>
+        </div>
+
         <div id="sponsor-container" class="text-center">
           <p class="mt-5 mb-3">Todo este evento no sería posible sin la generosa colaboración de nuestros patrocinadores</p>
           <img class="mx-3" src="images/ea-logo-normalized.png" alt="Electronic Arts" title="Electronic Arts">
