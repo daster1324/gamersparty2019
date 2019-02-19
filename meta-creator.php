@@ -15,6 +15,10 @@ function escupeMeta(){
             echo "<title>Gamers Party 2019 | Visita el INTA</title>";
             break;
 
+        case '/gamejam':
+            echo "<title>Gamers Party 2019 | GameJam</title>";
+            break;
+
         default:
             echo "<title>Gamers Party 2019 | El mayor evento de videojuegos de la UCM</title>";
             break;
@@ -27,13 +31,13 @@ function escupeMeta(){
 
     <link rel="icon" href="images/favicon.png">
 
-    <meta name="description" content="La Gamer's Party 2019 es un evento benéfico organizado por estudiantes y profesores de la UCM para recaudar dinero y alimentos para el banco de alimentos de Madrid" />
+    <meta name="description" content="La Gamers Party 2019 es un evento benéfico organizado por estudiantes y profesores de la UCM para recaudar dinero y alimentos para el banco de alimentos de Madrid" />
     <meta name="robots" content="index,follow" />
     <meta name="keywords" content="gamers, gamer's, party, evento, benefico, banco, alimentos, madrid, ucm, complutense, informatica, speedruns, videojuegos"/>
 
     <meta property="og:locale" content="es_ES" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Gamer's Party 2019 | El mayor evento de videojuegos de la UCM" />
+    <meta property="og:title" content="Gamers Party 2019 | El mayor evento de videojuegos de la UCM" />
     <meta property="og:description" content="Evento benéfico del 25 de febrero al 1 de marzo de 2019 organizado por estudiantes y profesores de la UCM para recaudar dinero y alimentos para el banco de alimentos de Madrid" />
     <meta property="og:url" content="http://gamersparty.org/" />
     <meta property="og:site_name" content="Gamers Party" />
