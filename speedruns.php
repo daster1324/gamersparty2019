@@ -51,7 +51,7 @@
 
             $h->addRun(Horario::martes, "15:00", "18:00", "Pino", "Dark Souls 2", "Únete al oscuro viaje y experimenta los sobrecogedores encuentros con enemigos, los peligros diabólicos y los desafíos implacables");
 
-            $h->addRun(Horario::martes, "18:00", "19:00", "J. Pablo, Null, Pino", " ", " ");
+            $h->addRun(Horario::martes, "18:00", "19:00", "J. Pablo", "NullpoMino", "Tetris es conocido por todos, pero casi nadie lo domina a la perfección. Yo también me incluyo en ese grupo, solo que algo menos. Caen bloques 2 Fast 2 Furious, ¿qué más quieres?");
 
             $h->addRun(Horario::martes, "19:00", "20:00", "Diego", "Portal", "Un juego de puzles en 3D donde la física y pensar en portales es lo más importante. Al final habrá tarta (o no)");
 
