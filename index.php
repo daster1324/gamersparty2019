@@ -25,18 +25,16 @@
         <p>Nuestros runners estarán toda la semana demostrando cómo de rápido se pueden pasar sus juegos favoritos para ofrecer espectáculo.</p>
         
         <p>¿Contamos con tu aportación este año?</p>
-
-        <p class="mt-5">Y, ahora, sin más dilación, el vídeo promocional.</p>
       </div>
 
+      <div class="container">
+        <div id="twitch-frame"></div>
+      </div> 
+
+      <p class="mt-5 mb-3">Y, ahora, sin más dilación, el vídeo promocional.</p>
       <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rdEmI77q7eI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-<?php
-//     <div class="container">
-//       <div id="twitch-frame"></div>
-//     </div>
-?> 
 
       <?php getFooter(); ?>
     </div>
@@ -44,37 +42,36 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/code.js"></script>
-<?php
-//    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-//		<script type="text/javascript">
-//
-//				var embed = new Twitch.Embed("twitch-frame", {
-//					width: "100%",
-//					channel: "gamersparty_es",
-//					layout: "video",
-//					autoplay: false
-//				});
-//
-//				embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
-//					var player = embed.getPlayer();
-//					player.pause();
-//				});
-//
-//		//Redimensiona el tamaño del frame para ajustarlo a las pantallas
-//			$(function(){
-//				var $window = $(window).on('resize', function(){
-//					var iframe = $("#stream-frame > iframe");
-//					$(iframe).height($(iframe).width()*(9/16)+40);
-//				}).trigger('resize'); //on page load
-//			});
-//
-//			$(function(){
-//				var $window = $(window).on('resize', function(){
-//					var iframe = $("#twitch-frame > iframe");
-//					$(iframe).height($(iframe).width()*(9/16)+40);
-//				}).trigger('resize'); //on page load
-//			});
-//      </script>  
-?>
+
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+		<script type="text/javascript">
+
+				var embed = new Twitch.Embed("twitch-frame", {
+					width: "100%",
+					channel: "gamersparty_es",
+					layout: "video",
+					autoplay: false
+				});
+
+				embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+					var player = embed.getPlayer();
+					player.pause();
+				});
+
+		//Redimensiona el tamaño del frame para ajustarlo a las pantallas
+			$(function(){
+				var $window = $(window).on('resize', function(){
+					var iframe = $("#stream-frame > iframe");
+					$(iframe).height($(iframe).width()*(9/16)+40);
+				}).trigger('resize'); //on page load
+			});
+
+			$(function(){
+				var $window = $(window).on('resize', function(){
+					var iframe = $("#twitch-frame > iframe");
+					$(iframe).height($(iframe).width()*(9/16)+40);
+				}).trigger('resize'); //on page load
+			});
+      </script>  
   </body>
 </html>
