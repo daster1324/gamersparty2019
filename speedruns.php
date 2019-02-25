@@ -51,7 +51,7 @@
 
             $h->addRun(Horario::martes, "15:00", "18:00", "Pino", "Dark Souls 2", "Únete al oscuro viaje y experimenta los sobrecogedores encuentros con enemigos, los peligros diabólicos y los desafíos implacables");
 
-            $h->addRun(Horario::martes, "18:00", "19:00", "J. Pablo, Null, Pino", " ", " ");
+            $h->addRun(Horario::martes, "18:00", "19:00", "J. Pablo", "NullpoMino", "Tetris es conocido por todos, pero casi nadie lo domina a la perfección. Yo también me incluyo en ese grupo, solo que algo menos. Caen bloques 2 Fast 2 Furious, ¿qué más quieres?");
 
             $h->addRun(Horario::martes, "19:00", "20:00", "Diego", "Portal", "Un juego de puzles en 3D donde la física y pensar en portales es lo más importante. Al final habrá tarta (o no)");
 
@@ -81,7 +81,7 @@
 
             $h->addRun(Horario::viernes, "10:00", "13:00", "TitanfallFDI", "Titanfall 2", "Los titanes de la FDI-UCM lucharán para asegurar hasta el último cargamento destinado al Banco de Alimentos desde la Frontera.");
 
-            $h->addRun(Horario::viernes, "13:00", "15:00", "Viktor", "MAX PAYNE", "Max Payne, un agente de la DEA y ex agente de la policía de Nueva York, se encuentra a su familia muerta. Preso del dolor de su reciente pérdida, decide investigar quien está detrás de este terrible acto inhumano.");
+            $h->addRun(Horario::viernes, "13:00", "15:00", "Viktor y Juan", "TETRIS", "El clásico juego de colocar piezas se transforma en un combate a muerte entre nuestros dos experimentados competidores. Durante dos intensas horas,  el destino decidirá quién de los dos es el verdadero campeón de este feroz juego");
 
             $h->addRun(Horario::viernes, "15:00", "19:00", "Zero", "Metal Gear Solid", "FOXHOUND, una unidad genéticamente mejorada de fuerzas especiales,​ armó un levantamiento armado en una isla remota ubicada en el archipiélago Fox de Alaska. Esta isla, con nombre en código Shadow Moses, es el sitio de una instalación de almacenamiento de armas nucleares.");
 
