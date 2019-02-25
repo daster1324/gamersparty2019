@@ -83,7 +83,7 @@
 
             $h->addRun(Horario::viernes, "13:00", "15:00", "Viktor y Juan", "TETRIS", "El clásico juego de colocar piezas se transforma en un combate a muerte entre nuestros dos experimentados competidores. Durante dos intensas horas,  el destino decidirá quién de los dos es el verdadero campeón de este feroz juego");
 
-            $h->addRun(Horario::viernes, "15:00", "19:00", "Zero", "Metal Gear Solid", "FOXHOUND, una unidad genéticamente mejorada de fuerzas especiales,​ armó un levantamiento armado en una isla remota ubicada en el archipiélago Fox de Alaska. Esta isla, con nombre en código Shadow Moses, es el sitio de una instalación de almacenamiento de armas nucleares.");
+            $h->addRun(Horario::viernes, "15:00", "19:00", "Zero", "Metal Gear Solid 3", "Unión Soviética durante la Guerra Fría. La historia de Snake Eater tiene por protagonista a un espía estadounidense codificado como Naked Snake, cuya misión es rescatar a un científico desertor soviético, destruir un arma militar experimental y asesinar a su antigua mentora.");
 
             $h->addRun(Horario::viernes, "19:00", "20:00", "Staff", "Clausura", "Terminan los speedrun, pero no la GamersParty. ¡Aun nos queda la GameJam durante el fin de semana!");
 
