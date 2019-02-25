@@ -42,7 +42,7 @@
         </div>
         
         <div id="taller-patrocinadores" class="my-4 text-center">
-            <h5 class="mt-5 mb-4">Patrocinadores</h5>
+            <h5 class="mt-5 mb-4">Patrocinadores principales de estas actividades</h5>
             <img class="mx-1" src="images/catedra-juan-borbon.png" alt="Cátedra Don Juan de Borbón" title="Cátedra Don Juan de Borbón">
             <img class="mx-1" src="images/ministerio-defensa.png" alt="Ministerio de Defensa" title="Ministerio de Defensa">
             <img class="mx-1" src="images/ceseden.png" alt="Centro Superior de Estudios de la Defensa Nacional" title="Centro Superior de Estudios de la Defensa Nacional">

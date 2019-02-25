@@ -233,7 +233,7 @@ div#div-cookies {
     width: 100%;   
 }
 
-#sponsor-container img {
+#sponsor-container img, #sponsor-container-gamejam img {
   max-height: 70px;
 }
 
