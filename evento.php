@@ -11,6 +11,9 @@
 
   </head>
   <body>
+    <div class="text-center pt-4 pb-2 font-weight-bold ">
+      <p>Hemos escondido una frase secreta por esta web. Dínos por privado en twitch la frase y cómo se consigue para ganar una clave de Steam. Recomendado PC. Hace falta un teclado completo.</p>
+    </div>
     <div id="main-container" class="container">
       <?php getHeader(); ?>
 
