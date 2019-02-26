@@ -25,6 +25,6 @@ function getFooter(){
 			</div>
         </div>
 	</footer>
-
+	<script src="/js/code.js"></script>
 <?php
 }
