@@ -36,7 +36,7 @@ function getHeader(){
                 echo '<a class="nav-item nav-link boton blanco" href="/evento">El evento</a>';
             }
 
-            echo '<a id="donar" class="nav-item nav-link boton azul" href="https://donaciones.gamersparty.org">Donar</a>';
+            //echo '<a id="donar" class="nav-item nav-link boton azul" href="https://donaciones.gamersparty.org">Donar</a>';
 
             if($cur == "/visita-inta"){
                 echo '<a class="nav-item nav-link boton verde active" href="/visita-inta">Visita el INTA <span class="sr-only">(actual)</span></a>';

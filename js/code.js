@@ -41,3 +41,10 @@ function explode(){
   $("#donar").toggleClass(anterior);
 }
 setInterval(explode, 200);
+
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover({
+    placement: 'auto'
+  }); 
+  
+});

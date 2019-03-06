@@ -18,7 +18,7 @@ body {
   color: #fff;
 }
 
-.nav-item{
+.nav-item, .btn-info{
   color: white;
   background: none;
   border-radius: 0;
@@ -31,7 +31,7 @@ body {
   color: #fff;
 }
 
-.nav-link:hover, .nav-link.active{
+.nav-link:hover, .nav-link.active, .btn-info:hover{
   color: #333 !important;
 }
 
@@ -237,3 +237,21 @@ div#div-cookies {
   max-height: 70px;
 }
 
+.info-container button, .info-container a{
+  margin: 1em auto !important;
+  width: 75%;
+}
+
+.info-container button:hover{
+  cursor: pointer;
+}
+
+.popover-header {
+  color: #212529;
+  text-align: center;
+}
+
+.participantes {
+  margin: 2em 0;
+  font-size: 1.2em;
+}
