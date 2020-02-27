@@ -1,9 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@font-face {
+  font-family: 'caviar_dreamsbold';
+  src: url('/css/caviar_dreams_bold-webfont.woff2') format('woff2'),
+       url('/css/caviar_dreams_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #241e20;
   color: #fff;
-  font-family: 'Roboto', Arial;
-  font-size: 0.9em;
+  font-family: 'caviar_dreamsbold';
+  font-size: 1em;
 }
 
 #main-container{
@@ -23,8 +30,9 @@ body {
   background: none;
   border-radius: 0;
   letter-spacing: 0.35em;
-  font-size: 0.9em;
+  font-size: 1em;
   transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover{
@@ -254,4 +262,109 @@ div#div-cookies {
 .participantes {
   margin: 2em 0;
   font-size: 1.2em;
+}
+
+
+/*   ADDED 2020 */
+
+#gpty-title{
+    font-size: 6rem !important;
+}
+
+#gpty-name{
+  font-size: 1.5rem !important;
+}
+
+/* ANIMATIONS */
+span.pulsating{
+  animation: pulsating 5s infinite
+}
+span.flickering-1 {
+  animation: flickering-1 5s infinite;
+}
+span.flickering-2 {
+  animation: flickering-2 7s infinite;
+}
+span.flickering-3 {
+  animation: flickering-3 7s infinite;
+}
+span.flickering-4 {
+  animation: flickering-4 5s infinite;
+}
+span.flickering-5 {
+  animation: flickering-5 7s infinite;
+}
+@keyframes pulsating {
+  0% {
+      text-shadow: 0px 0px 0px;
+      opacity: 0;
+  }
+  50% {
+      text-shadow: 0px 0px 10px #33FF00,
+          0px 0px 20px #33FF00,
+          0px 0px 30px #33FF00,
+          0px 0px 40px #33FF00,
+          0px 0px 50px #33FF00,
+          0px 0px 60px #33FF00;
+      opacity: 1;
+  }
+  100% {
+      text-shadow: 0px 0px 0px;
+      opacity: 0;
+  }
+}
+
+@keyframes flickering-1 {
+  0% { opacity: 1; }
+  52% { opacity: 1; }
+  55% { opacity: 0; }
+  56% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes flickering-2 {
+  0% { opacity: 1; }
+  62% { opacity: 1; }
+  65% { opacity: 0; }
+  66% { opacity: 1; }
+  69% { opacity: 0; }
+  70% { opacity: 1; }
+  73% { opacity: 0; }
+  74% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes flickering-3 {
+  0% { opacity: 1; }
+  82% { opacity: 1; }
+  84% { opacity: 0; }
+  85% { opacity: 1; }
+  87% { opacity: 0; }
+  88% { opacity: 1; }
+  90% { opacity: 0; }
+  91% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes flickering-4 {
+  0% { opacity: 1; }
+  32% { opacity: 1; }
+  34% { opacity: 0; }
+  35% { opacity: 1; }
+  37% { opacity: 0; }
+  38% { opacity: 1; }
+  40% { opacity: 0; }
+  41% { opacity: 1; }
+  100% { opacity: 1; }
+}
+@keyframes flickering-5 {
+  0% { opacity: 1; }
+  12% { opacity: 1; }
+  14% { opacity: 0; }
+  15% { opacity: 1; }
+  17% { opacity: 0; }
+  18% { opacity: 1; }
+  20% { opacity: 0; }
+  21% { opacity: 1; }
+  100% { opacity: 1; }
 }

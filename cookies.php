@@ -25,7 +25,7 @@
         <div id="div-cookies" class="container">
             <h1>Política de cookies</h1>
             
-            <p>La presente política de cookies tiene por finalidad informarle de manera clara y precisa sobre las cookies que se utilizan en la página web de la GamersParty 2019.</p>
+            <p>La presente política de cookies tiene por finalidad informarle de manera clara y precisa sobre las cookies que se utilizan en la página web de la GamersParty 2020.</p>
         
             <h2>¿Qué son las cookies?</h2>
 
@@ -45,7 +45,7 @@
             
             <p>A continuación se identifican las cookies que están siendo utilizadas en este portal así como su tipología y función:</p>
             
-            <p>La página web de la GamersParty 2019 utiliza Google Analytics, un servicio de analítica web desarrollada por Google, que permite la medición y análisis de la navegación en las páginas web. En su navegador podrá observar cookies de este servicio. Según la tipología anterior se trata de cookies propias, de sesión y de análisis.</p>
+            <p>La página web de la GamersParty 2020 utiliza Google Analytics, un servicio de analítica web desarrollada por Google, que permite la medición y análisis de la navegación en las páginas web. En su navegador podrá observar cookies de este servicio. Según la tipología anterior se trata de cookies propias, de sesión y de análisis.</p>
             
             <p>A través de la analítica web se obtiene información relativa al número de usuarios que acceden a la web, el número de páginas vistas, la frecuencia y repetición de las visitas, su duración, el navegador utilizado, el operador que presta el servicio, el idioma, el terminal que utiliza y la ciudad a la que está asignada su dirección IP. Información que posibilita un mejor y más apropiado servicio por parte de este portal.</p>
             
