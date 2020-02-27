@@ -4,8 +4,10 @@ function getHeader(){
     $cur = $_SERVER['REQUEST_URI'];
 ?>
 
-<div id="logo-container" class="container-fluid text-center my-3">
-    <img src="/images/gp2019.png" class="img-fluid " alt="Logo Gamers Party 2019">  
+<div id="logo-container" class="container-fluid text-center my-5">
+    <h1 id="gpty-title" class="text-center"><span class="flickering-1">G</span>P<span class="flickering-2">T</span>Y</h1>
+    <h1 id="gpty-name" class="text-center"><span class="flickering-4">G</span>AM<span class="flickering-1">E</span>R<span class="flickering-3">S</span>P<span class="flickering-2">A</span>RT<span class="flickering-5">Y</span> <span class="pulsating">2<span class="flickering-2">0</span>2<span class="flickering-2">0</span></span></h1>
+
 </div>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-transparent my-3">
@@ -15,43 +17,25 @@ function getHeader(){
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div id="test" class="navbar-nav nav nav-fill w-100">
         <?php
-            if($cur == "/"){
-                echo '<a class="nav-item nav-link boton azul active" href="/">Inicio <span class="sr-only">(actual)</span></a>';
-            }
-            else{
-                echo '<a class="nav-item nav-link boton azul" href="/">Inicio</a>';
-            }
+            $menu = [
+                # [href, name, class, <id>]
+                ["/", "Inicio", "azul"],
+                # ["/speedruns", "Speedruns", "rojo"],
+                ["/evento", "El evento", "blanco"],
+                ["/participa", "Participa", "amarillo"],
+                # ["/donar", "Donar", "azul", "donar"],
+                # ["/visita-inta", "Visita inta", "verde"],
+                # ["/gamejam", "Game Jam", "amarillo"]
+            ];
+            $formatstring = '<a %s class="nav-item nav-link boton %s" href="%s">%s</a>';
 
-            if($cur == "/speedruns"){
-                echo '<a class="nav-item nav-link boton rojo active" href="/speedruns">Speedruns <span class="sr-only">(actual)</span></a>';
+            foreach ($menu as $item) {
+                echo sprintf($formatstring,
+                    (count($item) >= 4)?('id="'.$item[3].'"'):"",
+                    $item[2].(($cur == $item[0])?" active":""), 
+                    $item[0],
+                    $item[1]).(($cur==$item[0])?'<span class="sr-only">(actual)</span>':'');
             }
-            else{
-                echo '<a class="nav-item nav-link boton rojo" href="/speedruns">Speedruns</a>';
-            }
-
-            if($cur == "/evento"){
-                echo '<a class="nav-item nav-link boton blanco active" href="/evento">El evento <span class="sr-only">(actual)</span></a>';
-            }
-            else{
-                echo '<a class="nav-item nav-link boton blanco" href="/evento">El evento</a>';
-            }
-
-            //echo '<a id="donar" class="nav-item nav-link boton azul" href="https://donaciones.gamersparty.org">Donar</a>';
-
-            if($cur == "/visita-inta"){
-                echo '<a class="nav-item nav-link boton verde active" href="/visita-inta">Visita el INTA <span class="sr-only">(actual)</span></a>';
-            }
-            else{
-                echo '<a class="nav-item nav-link boton verde" href="/visita-inta">Visita el INTA</a>';
-            }
-
-            if($cur == "/gamejam"){
-                echo '<a class="nav-item nav-link boton amarillo active" href="/gamejam">Game Jam <span class="sr-only">(actual)</span></a>';
-            }
-            else{
-                echo '<a class="nav-item nav-link boton amarillo" href="/gamejam">Game Jam</a>';
-            }
-            
         ?>
 
     </div>

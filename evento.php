@@ -21,10 +21,8 @@
       <div class="row">
         <div class="col-md-6 text-justify">
           <p>La GamersParty es un evento benéfico organizado por estudiantes y profesores de la Facultad de Informática de la Universidad Complutense de Madrid.</p>
-          <p>Nació en 2017 en la que recaudamos casi 1000€ en dinero y juguetes para Juegaterapia y, en 2018, se recaudaron más de 600kg de comida que fueron donados al Banco de Alimentos de Madrid.</p>
-          <p>La GamersParty 2019 se celebra desde el 25 de febrero al 1 de marzo desde las 9 hasta las 20 en la Sala de Grados de la Facultad de Informática de la Universidad Complutense de Madrid. Durante esa semana, los voluntarios retransmitirán por Youtube y Twitch cómo tratan de completar videojuegos en tiempo récord.</p>        
-          <p>Se sortearán premios entre todos los asistentes y los que nos veáis desde casa.</p>
-          <p class="d-none">También hay premios para los más curiosos. Puede que haya cosas escondidas, como esta.</p>
+          <p>Nació en 2017 en la que recaudamos casi 1000€ en dinero y juguetes para Juegaterapia. En 2018, se recaudaron más de 600kg de comida que fueron donados al Banco de Alimentos de Madrid. La edición de 2019 fue más breve y, aun así, se lograron recaudar unos 400kg de comida para el BAM</p>
+          <p>La GamersParty 2020 viene pisando fuerte, dispuesta a sobrepasar las cifras de las ediciones anteriores. Se celebrará desde el 16 al 20 de marzo desde las 9 hasta las 20 en la Sala de Grados de la Facultad de Informática de la Universidad Complutense de Madrid. Durante esa semana, los voluntarios retransmitirán por Youtube y Twitch cómo tratan de completar videojuegos en tiempo récord.</p>        
           <p>¡Os esperamos!</p>
         </div>
         <div class="col-md-6">

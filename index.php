@@ -11,29 +11,27 @@
 
   </head>
   <body>
-    <div class="d-none text-center pt-4 pb-2 font-weight-bold ">
-      <p>Hemos escondido una frase secreta por esta web. Dínos por privado en twitch la frase y cómo se consigue para ganar una clave de Steam.<br>Recomendado PC. Hace falta un teclado completo (el teclado numérico no es necesario).</p>
-    </div>
     <div id="main-container" class="container">
       <?php getHeader(); ?>
 
       <div class="container">
-        <h2 class="text-center mb-4">Volvemos del 25/02 al 1/03</h2>
+        <h2 class="text-center mb-4">Volvemos del 16/03 al 20/03</h2>
         <h5 class="text-center my-4" id="timer"></h5>
 
         <p>Así es. Vuelve el evento benéfico para echar una mano al Banco de Alimentos de Madrid.</p>
         <p>Nuestros runners estarán toda la semana demostrando cómo de rápido se pueden pasar sus juegos favoritos para ofrecer espectáculo.</p>
-        
         <p>¿Contamos con tu aportación este año?</p>
       </div>
 
-      <div class="container">
+      <div class="container d-none">
         <div id="twitch-frame"></div>
       </div> 
 
-      <p class="mt-5 mb-3">Y, ahora, sin más dilación, el vídeo promocional.</p>
-      <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rdEmI77q7eI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="container">
+        <p class="mt-5 mb-3">Y, ahora, sin más dilación, el vídeo promocional (del año pasado).</p>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rdEmI77q7eI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
 
       <?php getFooter(); ?>

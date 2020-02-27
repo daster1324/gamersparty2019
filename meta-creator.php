@@ -4,23 +4,23 @@ function escupeMeta(){
     $cur = $_SERVER['REQUEST_URI'];
     switch ($cur) {
         case '/speedruns':
-            echo "<title>Gamers Party 2019 | Speedruns</title>";
+            echo "<title>Gamers Party 2020 | Speedruns</title>";
             break;
     
         case '/evento':
-            echo "<title>Gamers Party 2019 | El evento</title>";
+            echo "<title>Gamers Party 2020 | El evento</title>";
             break;
 
         case '/talleres':
-            echo "<title>Gamers Party 2019 | Visita el INTA</title>";
+            echo "<title>Gamers Party 2020 | Visita el INTA</title>";
             break;
 
         case '/gamejam':
-            echo "<title>Gamers Party 2019 | GameJam</title>";
+            echo "<title>Gamers Party 2020 | GameJam</title>";
             break;
 
         default:
-            echo "<title>Gamers Party 2019 | El mayor evento de videojuegos de la UCM</title>";
+            echo "<title>Gamers Party 2020 | El mayor evento de videojuegos de la UCM</title>";
             break;
     }
 ?>
@@ -29,22 +29,22 @@ function escupeMeta(){
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/gpty_po.png">
 
-    <meta name="description" content="La Gamers Party 2019 es un evento benéfico organizado por estudiantes y profesores de la UCM para recaudar dinero y alimentos para el banco de alimentos de Madrid" />
+    <meta name="description" content="La Gamers Party 2020 es un evento benéfico organizado por estudiantes y profesores de la UCM para recaudar dinero y alimentos para el banco de alimentos de Madrid" />
     <meta name="robots" content="index,follow" />
     <meta name="keywords" content="gamers, gamer's, party, evento, benefico, banco, alimentos, madrid, ucm, complutense, informatica, speedruns, videojuegos"/>
 
     <meta property="og:locale" content="es_ES" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Gamers Party 2019 | El mayor evento de videojuegos de la UCM" />
-    <meta property="og:description" content="Evento benéfico del 25 de febrero al 1 de marzo de 2019 organizado por estudiantes y profesores de la UCM para recaudar dinero y alimentos para el banco de alimentos de Madrid" />
+    <meta property="og:title" content="Gamers Party 2020 | El mayor evento de videojuegos de la UCM" />
+    <meta property="og:description" content="Evento benéfico del 16 al 20 de marzo de 2020 organizado por estudiantes y profesores de la UCM para recaudar dinero y alimentos para el banco de alimentos de Madrid" />
     <meta property="og:url" content="http://gamersparty.org/" />
-    <meta property="og:site_name" content="Gamers Party" />
-    <meta property="og:image" content="http://gamersparty.org/images/favicon200.png" />
+    <meta property="og:site_name" content="Gamers Party 2020" />
+    <meta property="og:image" content="http://gamersparty.org/images/gpty_po.png" />
 
-    <meta name="twitter:card" content="Speedruns benéficos del 25 de febrero al 1 de marzo de 2019 en la UCM."/>
-    <meta name="twitter:description" content="Evento benéfico del 25 de febrero al 18 de marzo de 2019 organizado por estudiantes y profesores de la UCM para recaudar dinero y alimentos para el banco de alimentos de Madrid"/>
+    <meta name="twitter:card" content="Speedruns benéficos del 16 al 20 de marzo de 2020 en la UCM."/>
+    <meta name="twitter:description" content="Evento benéfico del 16 al 20 de marzo de 2020 organizado por estudiantes y profesores de la UCM para recaudar dinero y alimentos para el banco de alimentos de Madrid"/>
     <meta name="twitter:title" content="GamersParty España"/>
     <meta name="twitter:site" content="@GamersParty_ES"/>
     <meta name="twitter:creator" content="@HumperCobra"/>
